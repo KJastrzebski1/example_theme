@@ -12,7 +12,7 @@ function print_clock()
     var minutes = $("<div id='minutes'></div>");
     var seconds = $("<div id='seconds'></div>");
     var dot = $("<div id='dot'></div>");
-    console.log(opt);
+    
 
     $('#alt_watch').append(background);
     $background = $("#background");
@@ -41,7 +41,7 @@ function print_clock()
         'width': parseInt(opt['diameter'] / 2.5) + "px",
         'background-color': opt['h_color']
     });
-    console.log(parseInt(opt['diameter'] / 2.5) + "px");
+    
     $("#seconds").css({
         'width': parseInt(opt['diameter'] / 2.3) + "px",
     });
