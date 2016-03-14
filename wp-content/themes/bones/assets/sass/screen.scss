@@ -1,0 +1,75 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+body{
+
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+div.container{
+    max-width: 920px;
+    margin: 10px auto;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.site-nav{
+    
+}
+.site-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.site-nav ul li{
+    list-style: none;
+    
+}
+.site-nav ul li a:link{
+    display: block;
+    padding: 10px 15px;
+    margin: 5px 10px;
+}
+.logo
+{
+    font-size: 32px;
+    padding: 8px;
+    width: 300px;
+
+}
+header{
+    border-bottom: 1px solid grey;
+    margin: 5px 10px;
+}
+.row
+{
+
+}
+#top
+{
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/Test/wordpress/wp-content/themes/bones/assets/heaven.png");
+}
+#service
+{
+    height: 400px;
+    background-size: cover;
+    background-image: url("/Test/wordpress/wp-content/themes/bones/assets/service.png");
+}
+#training
+{
+    height: 400px;
+    background-size: cover;
+    background-image: url("/Test/wordpress/wp-content/themes/bones/assets/training.png");
+    word-wrap: break-word;
+}
+#data{
+    height: 400px;
+    background-size: cover;
+    background-image: url("/Test/wordpress/wp-content/themes/bones/assets/data.png");
+}

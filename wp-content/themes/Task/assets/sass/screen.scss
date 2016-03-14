@@ -1,0 +1,196 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+body{
+ background-color: #F7F6F1;
+ list-style: none;
+}
+h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+div.container{
+    max-width: 920px;
+    margin: 10px auto;
+    padding: 10px;
+    word-wrap: break-word;
+    
+}
+div.post{
+    background-color: white;
+    max-width: 920px;
+}
+.btn
+{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+    color: white;
+    background-color: #3EA7FF;
+    margin-bottom: 0px;
+    
+}
+
+/*Menu */
+/* Small devices (tablets, 768px and up) */
+
+@media screen and (min-device-width: 768px){
+    .container-fluid{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 769px){
+    .site-header{
+        display: none;
+    }
+}
+.site-nav ul{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.site-nav ul li{
+    list-style: none;
+    float: left;
+}
+//header menu
+header .site-nav ul li a:link{
+    
+    display: block;
+    padding: 10px 15px;
+    padding-top: 30px;
+    margin: 5px 10px;
+    
+}
+// footer menu
+.site-footer{
+    padding: 5px;
+    font-size: 12px;
+    
+}
+.site-footer .site-nav ul li a:link{
+    font-size: 12px;
+    margin: 3px;
+    padding: 3px;
+    display: block;
+    float: right;
+    
+}
+#bottom{
+    position: absolute;
+    right: 0px;
+    text-align: right;
+}
+
+.logo a
+{
+    font-size: 32px;
+    
+    color: #3EA7FF;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+}
+#name
+{
+    margin-bottom: 20px;
+}
+.logo a:hover
+{
+    text-decoration: none;
+}
+header{
+    border-bottom: 1px solid lightgrey;
+    margin: 5px 10px;
+    
+}
+.row
+{
+
+}
+#top
+{
+    height: 340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/Test/wordpress/wp-content/themes/task/assets/heaven.png");
+}
+//MAIN ARTICLE
+.main-article{
+    color: black;
+    font-family: sans-serif;
+    padding-top: 30px;
+    h2{
+        font-size: 32px;
+        margin: 10px;
+        font-weight: bolder;
+    }
+    p{
+        text-align: justify;
+        text-indent: 30px;
+    }
+    span{
+        color: #3EA7FF;
+    }
+}
+//tags==============================
+.tags{
+    margin-top: 15px;
+    padding: 30px;
+}
+
+/*ARticles ----------------------*/
+#articles{
+    background-color: white;
+}
+#articles h2{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+article{
+    height: 350px;
+    padding: 10px;
+}
+article img{
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content{
+    height: 150px;
+    overflow: hidden;
+    padding: 0px 5px;
+    text-overflow: ellipsis;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 0px 10px;
+}
+
+//POST===========================
+.post{
+    
+    padding: 15px;
+    font-family: "Verdana", sans-serif;
+    .post_title{
+        font-size: 40px;
+        text-height: 50px;
+        color: #3EA7FF;
+        
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #3EA7FF;
+        margin: 10px;
+    }
+    p{
+        
+        padding: 5px;
+        line-height: 1.2;
+    }
+}
