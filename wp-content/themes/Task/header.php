@@ -10,11 +10,12 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/Test/wordpress/wp-content/themes/Task/assets/stylesheets/screen.css">
+        <link rel="stylesheet" type="text/css" href="wp-content/themes/Task/assets/stylesheets/screen.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-
+		<link rel="shortcut icon" href="wp-content/themes/Task/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="wp-content/themes/Task/favicon.ico" type="image/x-icon">
 
 
         <title><?php bloginfo('name'); ?></title>
@@ -63,7 +64,7 @@
                 <div class="row">
 
                     <div class="logo col-sm-6">
-                        <a href="<?php echo site_url(); ?>"><img src="/Test/wordpress/wp-content/themes/task/assets/logo.png">
+                        <a href="<?php echo site_url(); ?>"><img src="wp-content/themes/Task/assets/logo.png">
                             <span id="name"><?php bloginfo('name'); ?></span></a>
                     </div>
                     <nav class="site-nav col-sm-6">

@@ -13,7 +13,8 @@ function print_clock()
     var seconds = $("<div id='seconds'></div>");
     var dot = $("<div id='dot'></div>");
     
-
+	if(!opt['diameter']){ opt['diameter']=110;}
+	
     $('#alt_watch').append(background);
     $background = $("#background");
     $background.css({

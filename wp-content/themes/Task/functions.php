@@ -23,7 +23,7 @@ register_sidebar($sidebar_form);
 function theme_style(){ // cos nie dziala
     wp_enqueue_style('screen', get_template_directory_uri, false);
 }
-
+add_theme_support( 'post-thumbnails' ); 
 //add_action('wp_enqueue_scripts','theme_style');
 set_post_thumbnail_size( 150, 150 );
 //add_action('wp_enqueue_scripts', 'get_resources');

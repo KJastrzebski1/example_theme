@@ -9,7 +9,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #ffcc00;
-   
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#alt-watch{
+    
+    
 }
 #dot{
     position: absolute;

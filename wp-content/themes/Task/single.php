@@ -4,7 +4,7 @@
     <div class="row post_title">
         <div class="post">
             <div class="col-sm-12">
-                <img src="/Test/wordpress/wp-content/themes/Task/assets/cloud.png" width="100%">
+                <img src="wp-content/themes/Task/assets/cloud.png" width="100%">
                 
                 <h1><?php echo strtoupper(get_the_title()); ?></h1>
             </div>
